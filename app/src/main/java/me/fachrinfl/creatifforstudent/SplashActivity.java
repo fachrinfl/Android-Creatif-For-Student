@@ -52,9 +52,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                if (++i <= 100){
+                if (++i <= 100) {
                     progressBar_linear.setProgress(i);
-                    progressBar_linear.setSecondaryProgress(i+10);
+                    progressBar_linear.setSecondaryProgress(i + 10);
                 } else {
                     timer.cancel();
                     Intent intent = new Intent(SplashActivity.this, LoginActivity.class);

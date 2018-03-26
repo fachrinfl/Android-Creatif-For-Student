@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="40dp"
-    tools:context="me.fachrinfl.creatifforstudent.SplashActivity"
-    android:gravity="center">
+    tools:context="me.fachrinfl.creatifforstudent.SplashActivity">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -16,22 +16,22 @@
         android:layout_height="wrap_content"
         android:text="Creatif"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="48sp"/>
+        android:textSize="48sp" />
 
     <TextView
         android:id="@+id/tvSubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="For students"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark" />
 
     <ProgressBar
-        android:layout_marginTop="5dp"
         android:id="@+id/progressBar_linear"
+        style="@style/ProgressBarTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ProgressBarTheme"
+        android:layout_marginTop="5dp"
         android:indeterminate="false"
-        style="@style/ProgressBarTheme"/>
+        android:theme="@style/ProgressBarTheme" />
 
 </LinearLayout>
