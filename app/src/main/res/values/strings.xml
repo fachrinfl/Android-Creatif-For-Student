@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Creatif For Student</string>
+    <string name="str_edt_username">Username</string>
+    <string name="str_edt_password">Password</string>
+</resources>
