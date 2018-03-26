@@ -31,4 +31,12 @@
         <item name="android:textSize">12sp</item>
     </style>
 
+    <style name="ProgressBarTheme" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorButtonNormal">#1BFFFF</item>
+        <item name="colorControlActivated">@color/colorErrorForm</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
+    </style>
+
+
 </resources>
