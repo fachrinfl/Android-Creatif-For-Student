@@ -19,11 +19,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait" />
-        android:theme="@style/AppTheme.NoActionBar"
-        <activity
             android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.DashboardActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 

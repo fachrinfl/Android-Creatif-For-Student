@@ -21,22 +21,28 @@
 
         <item name="android:colorControlNormal">@android:color/white</item>
         <item name="android:textColorHint">@android:color/white</item>
-        <item name="android:colorError">@color/colorErrorForm</item>
+        <item name="android:colorError">@color/colorError</item>
         <item name="colorControlActivated">@android:color/white</item>
 
     </style>
 
-    <style name="error_form" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/colorErrorForm</item>
+    <style name="FormLoginTheme" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorError</item>
         <item name="android:textSize">12sp</item>
     </style>
 
     <style name="ProgressBarTheme" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
         <item name="colorButtonNormal">#1BFFFF</item>
-        <item name="colorControlActivated">@color/colorErrorForm</item>
-        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:progressBackgroundTint">@color/colorBackgroundProgress</item>
+        <item name="colorControlActivated">@color/colorMainProgress</item>
+        <item name="colorControlHighlight">@color/colorSecondProgress</item>
         <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
     </style>
 
+    <style name="IndicatorTheme">
+        <item name="android:progressBackgroundTint">@color/colorBackgroundProgress</item>
+        <item name="colorControlActivated">@color/colorMainProgress</item>
+        <item name="colorControlHighlight">@color/colorSecondProgress</item>
+    </style>
 
 </resources>

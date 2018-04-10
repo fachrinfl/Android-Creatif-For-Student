@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/imageView_id"
+        android:src="@drawable/a"
+        android:scaleType="centerCrop"
+        android:contentDescription="Android Games"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+
+        android:text="Team creatif begins learning android programming with material design"/>
+
+</LinearLayout>

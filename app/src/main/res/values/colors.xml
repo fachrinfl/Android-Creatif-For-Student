@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#64A1FF</color>
     <color name="colorPrimaryDark">#64A1FF</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorErrorForm">#FCEE21</color>
+    <color name="colorError">#FCEE21</color>
+
+    <!--Progress color-->
+    <color name="colorBackgroundProgress">#F4F4F4</color>
+    <color name="colorMainProgress">#F8D800</color>
+    <color name="colorSecondProgress">#FDEB71</color>
+
+    <!--Main Background-->
+    <color name="colorMainBackground">#F4F4F4</color>
+
 </resources>
